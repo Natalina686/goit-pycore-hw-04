@@ -1,4 +1,4 @@
-import cats_information as cat_info
+
 
 def get_cats_info(path):
     cats_info = []
@@ -15,5 +15,5 @@ def get_cats_info(path):
     except Exception as e:
         return f"Сталася помилка: {e}"
     
-cats_info = get_cats_info(cat_info)
+cats_info = get_cats_info("02task/cats_information.txt")
 print(cats_info)

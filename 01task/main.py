@@ -1,4 +1,3 @@
-from main import salary_file
 
 
 def total_salary(path):
@@ -16,5 +15,5 @@ def total_salary(path):
     except Exception as e:
         return f"Сталася помилка: {e}"
     
-total, average_salary = total_salary(salary_file.txt)
+total, average_salary = total_salary("01task/salary_file.txt")
 print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average_salary}")
