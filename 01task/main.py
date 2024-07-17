@@ -1,4 +1,4 @@
-from main_folder import salary_file
+from main import salary_file
 
 
 def total_salary(path):
